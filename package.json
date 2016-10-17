@@ -1,0 +1,29 @@
+{
+  "name": "koa-simple-qs",
+  "version": "0.0.1",
+  "description": "Simple Koa query string support",
+  "main": "index.js",
+  "repository": "james1x0/koa-simple-qs",
+  "scripts": {
+    "test": "mocha -R spec test/**/*.js",
+    "test-watch": "mocha -R spec test/**/*.js --watch"
+  },
+  "keywords": [
+    "koa",
+    "qs",
+    "querystring"
+  ],
+  "author": "James1x0",
+  "license": "MIT",
+  "dependencies": {
+    "qs": "^6.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "co-mocha": "^1.1.3",
+    "koa": "^1.2.4",
+    "koa-router": "^5.4.0",
+    "mocha": "^3.1.2"
+  }
+}
