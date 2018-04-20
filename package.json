@@ -1,6 +1,6 @@
 {
   "name": "koa-simple-qs",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Simple Koa query string support",
   "main": "index.js",
   "repository": "james1x0/koa-simple-qs",
